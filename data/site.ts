@@ -27,14 +27,29 @@ export const navItems = [
 
 export const secondaryNav = [["Partners", "/partners"], ["FAQs", "/faqs"]] as const;
 
-export const speakers = Array.from({ length: 8 }, (_, index) => ({
-  id: `speaker-${String(index + 1).padStart(2, "0")}`,
-  name: `Speaker ${String(index + 1).padStart(2, "0")}`,
-  field: ["Design & Culture", "Science & Society", "Entrepreneurship", "Human Potential"][index % 4],
-  talk: "Talk theme to be announced",
-  bio: "The speaker biography, designation and organisation will appear here after the official announcement.",
-  timing: "Session timing • Provisional",
-}));
+export const speakers = [
+  {
+    id: "ajinkya-gandhe",
+    name: "Ajinkya Gandhe",
+    field: "Architect-Turned-Culinary Entrepreneur | Co-founder – Place, Nagpur | MasterChef India Season 9 Winner",
+    bio: "Ajinkya Gandhe blends architecture and culinary creativity to craft memorable food experiences. From Goa's cafés and supper clubs to Place in Nagpur, his journey reflects innovation, passion and design. In 2026, he and his brother Vikram made history as the first sibling duo to win MasterChef India.",
+    image: "/speakers/ajinkya-gandhe.jpeg",
+  },
+  {
+    id: "janhvi-v-singh",
+    name: "Janhvi V Singh",
+    field: "Content Creator | National Prime Minister Awardee and Founder of Sattva",
+    bio: "Janhvi V Singh is a notable Indian content creator known for promoting culture, scriptures, and sarees, earning the title \"arși air\" creator. She gained national recognition when Prime Minister Narendra Modi awarded her the Heritage Icon of the Year Award at the National Creators Awards in March 2024. Additionally, she founded Sattva Sangha, a community organization focused on Indian culture, heritage, and spirituality.",
+    image: "/speakers/janhvi-v-singh.jpeg",
+  },
+  {
+    id: "sarang-thakre",
+    name: "Sarang Thakre",
+    field: "Founder, BigtopSocial & Matoshri Infra",
+    bio: "Sarang Thakre is an entrepreneur, digital marketing strategist, and educator based in Nagpur. As the founder of BigtopSocial and Matoshri Infra, he works at the intersection of business growth, digital strategy, and social impact. With expertise in digital execution, performance-driven marketing, and education, Sarang continues to help businesses and individuals turn ideas and potential into meaningful outcomes.",
+    image: "/speakers/sarang-thakre.jpeg",
+  },
+] as const;
 
 export const activities = [
   { title: "Beyond Build", category: "Pre-Fest Experience", description: "A paid, in-person team experience held on the day before the TEDxGHRCEMN Main Event.", dateTime: "8 September 2026 • 10:00 AM–6:00 PM IST", venue: "B-107, B Block, GHRCEMN", eligibility: "Teams of 2–4 participants", price: "₹99", registrationUrl: "https://konfhub.com/beyondbuild" },
@@ -133,7 +148,7 @@ export const faqs = [
 export const routeMeta: Record<string, { title: string; description: string }> = {
   about: { title: "About", description: "The story, purpose and context behind TEDxGHRCEMN." },
   event: { title: "Event", description: "Explore the two-day TEDxGHRCEMN experience and provisional schedule." },
-  speakers: { title: "Speakers", description: "Meet the voices taking the TEDxGHRCEMN stage. Announcements coming soon." },
+  speakers: { title: "Speakers", description: "Meet the announced speakers taking the TEDxGHRCEMN stage in 2026." },
   activities: { title: "Activities", description: "Discover workshops and the student competition at the Pre-Fest." },
   team: { title: "Team", description: "Meet the public organising team behind TEDxGHRCEMN." },
   partners: { title: "Partners", description: "Institutional support and partnership opportunities for TEDxGHRCEMN." },
