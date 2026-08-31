@@ -613,6 +613,10 @@ em {
 .highlight-grid .photo-visual:hover img {
   transform: scale(1.035);
 }
+.speaker-photo img,
+.dialog-photo img {
+  object-position: center 22%;
+}
 .activity-home {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -729,6 +733,9 @@ em {
 }
 .highlight-grid .photo-visual {
   min-height: 0;
+}
+.highlight-grid > .photo-visual:first-child img {
+  object-position: center top;
 }
 .final-cta {
   min-height: 80vh;
