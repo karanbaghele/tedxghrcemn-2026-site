@@ -80,6 +80,7 @@ export const teamGroups = [
       { name: "Karan Baghele", role: "Organizer", image: "/team/karan-baghele.jpg" },
       { name: "Khushi Chordiya", role: "Co-Organizer", image: "/team/khushi-chordiya.jpg" },
       { name: "Karan Soni", role: "Joint Secretary", image: "/team/karan-soni.jpg" },
+      { name: "Pragati Shripad", role: "Secretary", image: "/team/pragati-shripad-card.jpeg" },
     ],
   },
   {
@@ -92,7 +93,7 @@ export const teamGroups = [
   {
     title: "Media & Technology",
     members: [
-      { name: "Rohit Deshmukh", role: "Social Media Lead", image: "/team/rohit-deshmukh.jpg" },
+      { name: "Rohit Deshmukh", role: "Social Media Lead", image: "/team/rohit-deshmukh-card.jpeg" },
       { name: "Kshitij Ingole", role: "Social Media Manager", image: "/team/kshitij-ingole.jpg" },
       { name: "Vishwesh Vishal Aiya", role: "Website Manager", image: "/team/vishwesh-aiya.jpg" },
     ],
@@ -101,7 +102,7 @@ export const teamGroups = [
     title: "Volunteer Team",
     members: [
       { name: "Rashi Mishra", role: "Volunteer In-Charge", image: "/team/rashi-mishra.jpg" },
-      { name: "Shimpali Tilak Haware", role: "Volunteer", image: "/team/shimpali-haware.jpg" },
+      { name: "Shimpali Tilak Haware", role: "Volunteer", image: "/team/shimpali-haware-card.jpeg" },
       { name: "Pranjal Manoj Pangul", role: "Volunteer", image: "/team/pranjal-pangul.jpg" },
       { name: "Siddhi Mangesh Kunjarkar", role: "Volunteer", image: "/team/siddhi-kunjarkar.jpg" },
       { name: "Pooja Mohnani", role: "Volunteer", image: "/team/pooja-mohnani.jpg" },
