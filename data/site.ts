@@ -49,6 +49,13 @@ export const speakers = [
     bio: "Sarang Thakre is an entrepreneur, digital marketing strategist, and educator based in Nagpur. As the founder of BigtopSocial and Matoshri Infra, he works at the intersection of business growth, digital strategy, and social impact. With expertise in digital execution, performance-driven marketing, and education, Sarang continues to help businesses and individuals turn ideas and potential into meaningful outcomes.",
     image: "/speakers/sarang-thakre-2026.jpeg",
   },
+  {
+    id: "priyanka-sharma",
+    name: "Priyanka Sharma",
+    field: "Communication Coach & Consultant, Raisoni Education",
+    bio: "Priyanka Sharma is a Content Consultant and Communication Coach with experience in brand communication, PR, academia, and employability development. A former Content Editor at The Times of India, she has worked with luxury brands, agrotech companies, and other sectors, with features in Forbes and Femina. She is also a visiting faculty member and resource person for training programmes at Higher Education Institutions, the National Human Rights Commission, WCDO, and community organizations. She co-authored Communication Skills for Budding Professionals, adopted as a textbook for first-year engineering and management students.",
+    image: "/speakers/priyanka-sharma-2026.jpeg",
+  },
 ] as const;
 
 export const activities = [
