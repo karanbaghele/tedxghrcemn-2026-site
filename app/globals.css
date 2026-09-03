@@ -1166,6 +1166,38 @@ em {
   font-size: clamp(24px, 3vw, 42px);
   margin: 0;
 }
+.partner-logo-card {
+  width: min(100%, 300px);
+  margin: 0;
+  padding: 10px;
+  justify-self: end;
+  background: #fff;
+  border: 1px solid var(--border);
+}
+.partner-logo-card img {
+  display: block;
+  width: 100%;
+  height: 116px;
+  object-fit: contain;
+}
+.partner-logo-card figcaption {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 2px 0;
+  color: #111;
+}
+.partner-logo-card strong {
+  font-size: 14px;
+}
+.partner-logo-card small {
+  color: #666;
+  font-size: 10px;
+  letter-spacing: .08em;
+  text-align: right;
+  text-transform: uppercase;
+}
 .partner-cta {
   padding: clamp(100px, 12vw, 180px) var(--page-pad);
   background: #0b0b0b;
@@ -1678,6 +1710,11 @@ em {
   }
   .partner-list p {
     grid-column: 2;
+  }
+  .partner-logo-card {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 14px;
   }
   .gallery-grid {
     grid-template-columns: 1fr;
