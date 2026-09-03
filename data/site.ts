@@ -56,6 +56,13 @@ export const speakers = [
     bio: "Priyanka Sharma is a Content Consultant and Communication Coach with experience in brand communication, PR, academia, and employability development. A former Content Editor at The Times of India, she has worked with luxury brands, agrotech companies, and other sectors, with features in Forbes and Femina. She is also a visiting faculty member and resource person for training programmes at Higher Education Institutions, the National Human Rights Commission, WCDO, and community organizations. She co-authored Communication Skills for Budding Professionals, adopted as a textbook for first-year engineering and management students.",
     image: "/speakers/priyanka-sharma-2026.jpeg",
   },
+  {
+    id: "jayant-khalatkar",
+    name: "Jayant Khalatkar",
+    field: "Director, KCC Group",
+    bio: "Jayant Khalatkar is an entrepreneur whose journey from humble beginnings to building a successful enterprise is rooted in perseverance, hard work, and strong relationships. Over four decades, he has navigated the challenges of entrepreneurship while making a mark in the fields of infrastructure and irrigation. Beyond business, he is known for mentoring, supporting, and creating opportunities for people around him. His story reflects a belief in not just building success for oneself, but helping others move forward along the way.",
+    image: "/speakers/jayant-khalatkar-2026.jpeg",
+  },
 ] as const;
 
 export const activities = [
