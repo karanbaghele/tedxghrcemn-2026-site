@@ -63,6 +63,13 @@ export const speakers = [
     bio: "Jayant Khalatkar is an entrepreneur whose journey from humble beginnings to building a successful enterprise is rooted in perseverance, hard work, and strong relationships. Over four decades, he has navigated the challenges of entrepreneurship while making a mark in the fields of infrastructure and irrigation. Beyond business, he is known for mentoring, supporting, and creating opportunities for people around him. His story reflects a belief in not just building success for oneself, but helping others move forward along the way.",
     image: "/speakers/jayant-khalatkar-2026.jpeg",
   },
+  {
+    id: "himanshu-dusane",
+    name: "Himanshu Dusane",
+    field: "Educationist, Author, Academic Leader",
+    bio: "Himanshu Dusane is an educator, academic leader, author, researcher, entrepreneur, and public speaker whose journey embodies the power of persistence. Once a student who struggled and failed in Mathematics in Class 9 and later missed IIT-JEE, he refused to let failure define his future. He went on to crack GATE three times, pursue an Executive Degree from IIT Guwahati, and build a career spanning teaching, research, academic leadership, and entrepreneurship. With over 13 years in education, he currently serves as a Vice Principal and runs a JEE preparation institute. A 10-book author and Josh Talks speaker, Himanshu inspires people to transform setbacks into stepping stones and connect their dots toward greatness.",
+    image: "/speakers/himanshu-dusane-2026.jpeg",
+  },
 ] as const;
 
 export const activities = [
